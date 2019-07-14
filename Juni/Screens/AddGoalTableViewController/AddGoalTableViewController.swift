@@ -30,7 +30,7 @@ class AddGoalTableViewController: UITableViewController {
 
     @objc func loadPictureBtnTapped() {
         imagePicker.allowsEditing = true
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .savedPhotosAlbum
         
         present(imagePicker, animated: true, completion: nil)
     }
