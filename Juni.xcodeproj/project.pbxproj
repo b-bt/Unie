@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		675B482E22DB12BB0034D005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B482D22DB12BB0034D005 /* AppDelegate.swift */; };
-		675B483022DB12BB0034D005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B482F22DB12BB0034D005 /* ViewController.swift */; };
 		675B483322DB12BB0034D005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675B483122DB12BB0034D005 /* Main.storyboard */; };
-		675B483622DB12BB0034D005 /* Juni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 675B483422DB12BB0034D005 /* Juni.xcdatamodeld */; };
 		675B483822DB12BC0034D005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675B483722DB12BC0034D005 /* Assets.xcassets */; };
 		675B483B22DB12BC0034D005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675B483922DB12BC0034D005 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		675B482A22DB12BA0034D005 /* Juni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675B482D22DB12BB0034D005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		675B482F22DB12BB0034D005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		675B483222DB12BB0034D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		675B483522DB12BB0034D005 /* Juni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Juni.xcdatamodel; sourceTree = "<group>"; };
 		675B483722DB12BC0034D005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675B483A22DB12BC0034D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		675B483C22DB12BC0034D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,37 @@
 		675B482C22DB12BA0034D005 /* Juni */ = {
 			isa = PBXGroup;
 			children = (
-				675B482D22DB12BB0034D005 /* AppDelegate.swift */,
-				675B482F22DB12BB0034D005 /* ViewController.swift */,
-				675B483122DB12BB0034D005 /* Main.storyboard */,
-				675B483722DB12BC0034D005 /* Assets.xcassets */,
-				675B483922DB12BC0034D005 /* LaunchScreen.storyboard */,
-				675B483C22DB12BC0034D005 /* Info.plist */,
-				675B483422DB12BB0034D005 /* Juni.xcdatamodeld */,
+				679C5D1822DB1AA000CE9B23 /* App */,
+				679C5D1A22DB1AD800CE9B23 /* Screens */,
+				679C5D1922DB1AB700CE9B23 /* Assets */,
 			);
 			path = Juni;
+			sourceTree = "<group>";
+		};
+		679C5D1822DB1AA000CE9B23 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				675B482D22DB12BB0034D005 /* AppDelegate.swift */,
+				675B483C22DB12BC0034D005 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		679C5D1922DB1AB700CE9B23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				675B483722DB12BC0034D005 /* Assets.xcassets */,
+				675B483922DB12BC0034D005 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		679C5D1A22DB1AD800CE9B23 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				675B483122DB12BB0034D005 /* Main.storyboard */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675B483622DB12BB0034D005 /* Juni.xcdatamodeld in Sources */,
-				675B483022DB12BB0034D005 /* ViewController.swift in Sources */,
 				675B482E22DB12BB0034D005 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F5FCSU82RA;
+				DEVELOPMENT_TEAM = 8P8D84995S;
 				INFOPLIST_FILE = Juni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbbruno.Juni;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonpay.Juni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F5FCSU82RA;
+				DEVELOPMENT_TEAM = 8P8D84995S;
 				INFOPLIST_FILE = Juni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbbruno.Juni;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonpay.Juni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,19 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		675B483422DB12BB0034D005 /* Juni.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				675B483522DB12BB0034D005 /* Juni.xcdatamodel */,
-			);
-			currentVersion = 675B483522DB12BB0034D005 /* Juni.xcdatamodel */;
-			path = Juni.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 675B482222DB12BA0034D005 /* Project object */;
 }
