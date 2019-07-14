@@ -16,7 +16,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="OverviewController" customModule="Juni" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbF-ax-aXf" customClass="MonthlyBalanceView" customModule="Juni" customModuleProvider="target">
@@ -105,7 +105,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="114" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-YS-kZi" customClass="GoalsTableView" customModule="Juni" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="371" width="414" height="385"/>
+                                <rect key="frame" x="0.0" y="371" width="414" height="437"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="goalCell" rowHeight="114" id="6d3-yn-XHR" customClass="GoalTableViewCell" customModule="Juni" customModuleProvider="target">
@@ -250,19 +250,39 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Família Bacelar" largeTitleDisplayMode="always" id="VWJ-c8-Hre"/>
+                    <connections>
+                        <outlet property="goalsTable" destination="i1l-YS-kZi" id="gvj-cO-D9F"/>
+                        <segue destination="OoR-6f-ZLU" kind="show" identifier="goalInfoSegue" id="C8Z-lv-8SJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="733.92857142857144"/>
+        </scene>
+        <!--Goal Info View Controller-->
+        <scene sceneID="KR7-FY-bz5">
+            <objects>
+                <viewController id="OoR-6f-ZLU" customClass="GoalInfoViewController" customModule="Juni" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zar-Af-VFC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DU9-m7-AsL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPP-SV-xr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="734"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jib-5V-Vxo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cXd-2F-E9S" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="ELf-VM-KUB">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ELf-VM-KUB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="darkYellow"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

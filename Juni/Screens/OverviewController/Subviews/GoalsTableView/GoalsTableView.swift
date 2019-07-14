@@ -11,6 +11,7 @@ import UIKit
 class GoalsTableView: UITableView {
 
     let goalCellIdentifier: String = "goalCell"
+    var goalsDelegate: GoalTableViewDelegate?
     
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
@@ -46,5 +47,10 @@ extension GoalsTableView: UITableViewDataSource {
 }
 
 extension GoalsTableView: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let goal = FinancialManager.shared.goals[indexPath.row]
+        self.goalsDelegate?.touched(goal: goal)
+    }
 }
