@@ -18,4 +18,9 @@ class FinancialManager {
         FamilyMember(withName: "Valentina", andImageNamed: "member3"),
         FamilyMember(withName: "Roberto", andImageNamed: "member4")
     ]
+    
+    private(set) var goals: [Goal] = [
+        Goal(withName: "Intercâmbio de Valentina"),
+        Goal(withName: "Casa própria")
+    ]
 }

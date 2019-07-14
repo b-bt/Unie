@@ -26,6 +26,7 @@
 		67D97EAD22DB5EBE001F9EF1 /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EAC22DB5EBE001F9EF1 /* GoalTableViewCell.swift */; };
 		67D97EAF22DB5ED3001F9EF1 /* GoalsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EAE22DB5ED3001F9EF1 /* GoalsTableView.swift */; };
 		67D97EB122DB6419001F9EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D97EB022DB6419001F9EF1 /* Assets.xcassets */; };
+		67D97EB322DB6804001F9EF1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EB222DB6804001F9EF1 /* Goal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		67D97EAC22DB5EBE001F9EF1 /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
 		67D97EAE22DB5ED3001F9EF1 /* GoalsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTableView.swift; sourceTree = "<group>"; };
 		67D97EB022DB6419001F9EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D97EB222DB6804001F9EF1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				6734CD2522DB2A40003319C0 /* FamilyMember.swift */,
+				67D97EB222DB6804001F9EF1 /* Goal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				6734CD2322DB2916003319C0 /* MemberCollectionViewCell.swift in Sources */,
 				67D97EAD22DB5EBE001F9EF1 /* GoalTableViewCell.swift in Sources */,
 				675B482E22DB12BB0034D005 /* AppDelegate.swift in Sources */,
+				67D97EB322DB6804001F9EF1 /* Goal.swift in Sources */,
 				6734CD2122DB26D0003319C0 /* MembersCollectionView.swift in Sources */,
 				6734CD1422DB1F9F003319C0 /* UIView+Xib.swift in Sources */,
 				6734CD1622DB201A003319C0 /* MonthlyBalanceView.swift in Sources */,

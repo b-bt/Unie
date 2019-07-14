@@ -219,6 +219,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="nameLbl" destination="web-57-bKZ" id="fbQ-p4-NJg"/>
                                             <outlet property="shadowContainer" destination="MFt-Pa-tKM" id="tnF-gv-dBe"/>
                                         </connections>
                                     </tableViewCell>

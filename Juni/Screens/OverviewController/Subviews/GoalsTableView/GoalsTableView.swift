@@ -31,11 +31,14 @@ class GoalsTableView: UITableView {
 
 extension GoalsTableView: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return FinancialManager.shared.goals.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: self.goalCellIdentifier, for: indexPath)
+        let goal = FinancialManager.shared.goals[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: self.goalCellIdentifier, for: indexPath) as! GoalTableViewCell
+        cell.config(with: goal)
         return cell
     }
     

@@ -10,6 +10,12 @@ import UIKit
 
 class GoalTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameLbl: UILabel!
+    private(set) var goal: Goal! {
+        didSet {
+            self.nameLbl.text = self.goal.name
+        }
+    }
     @IBOutlet weak var shadowContainer: UIView!
     
     override func awakeFromNib() {
@@ -21,5 +27,9 @@ class GoalTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func config(with goal: Goal) {
+        self.goal = goal
     }
 }
