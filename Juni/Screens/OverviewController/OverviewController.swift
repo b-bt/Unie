@@ -20,7 +20,6 @@ class OverviewController: UIViewController {
         self.addGoalBtn.delegate = self
     }
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.prefersLargeTitles = true

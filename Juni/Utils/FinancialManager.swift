@@ -20,8 +20,8 @@ class FinancialManager {
     ]
     
     private(set) var goals: [Goal] = [
-        Goal(withName: "Faculdade de Valentina", image: UIImage(named: "college")!, date: Date(timeIntervalSince1970: 1948060800), andValue: 7000000),
-        Goal(withName: "Casa própria", image: UIImage(named: "house")!, date: Date(timeIntervalSince1970: 1421971200), andValue: 50000)
+        Goal(withName: "Faculdade de Valentina", image: UIImage(named: "college")!, date: Date(timeIntervalSince1970: 1948060800), status: .ongoing, andValue: 7000000),
+        Goal(withName: "Casa própria", image: UIImage(named: "house")!, date: Date(timeIntervalSince1970: 1421971200), status: .ongoing, andValue: 50000)
     ]
     
     func createGoal(withName name: String, image: UIImage, date: Date, andValue value: Int) {
