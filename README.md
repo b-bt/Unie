@@ -1,5 +1,5 @@
 # Unie
-Aplicação cliente iOS para o projeto Unie, desenvolvido durante o [HackaGr1d Recife 2019](https://hackaDr1d.com.br)
+Aplicação cliente iOS para o projeto Unie, desenvolvido durante o [HackaGr1d Recife 2019](https://hackaDr1d.com.br).
 
 ## Sobre
 Unie é uma plataforma afetiva de planejamento familiar, onde acompanhamos os usuários entendendo, gerenciando os custos mensais e pensamos no futuro junto a eles com objetivos de médio a longo prazo atrelados a algum familiar, como por exemplo, faculdade da filha.
