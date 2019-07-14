@@ -11,11 +11,13 @@ import UIKit
 class OverviewController: UIViewController {
     
     
+    @IBOutlet weak var addGoalBtn: RoundedButton!
     @IBOutlet weak var goalsTable: GoalsTableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.goalsTable.goalsDelegate = self
+        self.addGoalBtn.delegate = self
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
@@ -32,5 +34,11 @@ class OverviewController: UIViewController {
 extension OverviewController: GoalTableViewDelegate {
     func touched(goal: Goal) {
         self.performSegue(withIdentifier: "goalInfoSegue", sender: goal)
+    }
+}
+
+extension OverviewController: RoundedButtonDelegate {
+    func buttonTouched() {
+        self.performSegue(withIdentifier: "addGoalSegue", sender: nil)
     }
 }

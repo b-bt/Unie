@@ -29,6 +29,7 @@
 		67D97EB322DB6804001F9EF1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EB222DB6804001F9EF1 /* Goal.swift */; };
 		67D97EB522DB6B99001F9EF1 /* GoalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EB422DB6B99001F9EF1 /* GoalInfoViewController.swift */; };
 		67D97EB822DB6BF4001F9EF1 /* GoalTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EB722DB6BF4001F9EF1 /* GoalTableViewDelegate.swift */; };
+		67D97EBC22DB7617001F9EF1 /* AddGoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EBB22DB7617001F9EF1 /* AddGoalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		67D97EB222DB6804001F9EF1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		67D97EB422DB6B99001F9EF1 /* GoalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalInfoViewController.swift; sourceTree = "<group>"; };
 		67D97EB722DB6BF4001F9EF1 /* GoalTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewDelegate.swift; sourceTree = "<group>"; };
+		67D97EBB22DB7617001F9EF1 /* AddGoalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				675B483122DB12BB0034D005 /* Main.storyboard */,
 				6734CD0C22DB1E2C003319C0 /* OverviewController */,
 				67D97EB622DB6B9D001F9EF1 /* GoalInfoViewController */,
+				67D97EBD22DB7659001F9EF1 /* AddGoalTableViewController */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -225,6 +228,14 @@
 				67D97EB422DB6B99001F9EF1 /* GoalInfoViewController.swift */,
 			);
 			path = GoalInfoViewController;
+			sourceTree = "<group>";
+		};
+		67D97EBD22DB7659001F9EF1 /* AddGoalTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67D97EBB22DB7617001F9EF1 /* AddGoalTableViewController.swift */,
+			);
+			path = AddGoalTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 				67D97EB322DB6804001F9EF1 /* Goal.swift in Sources */,
 				67D97EB822DB6BF4001F9EF1 /* GoalTableViewDelegate.swift in Sources */,
 				6734CD2122DB26D0003319C0 /* MembersCollectionView.swift in Sources */,
+				67D97EBC22DB7617001F9EF1 /* AddGoalTableViewController.swift in Sources */,
 				67D97EB522DB6B99001F9EF1 /* GoalInfoViewController.swift in Sources */,
 				6734CD1422DB1F9F003319C0 /* UIView+Xib.swift in Sources */,
 				6734CD1622DB201A003319C0 /* MonthlyBalanceView.swift in Sources */,
