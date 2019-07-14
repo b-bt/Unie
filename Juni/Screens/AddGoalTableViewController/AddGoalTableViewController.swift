@@ -36,7 +36,20 @@ class AddGoalTableViewController: UITableViewController {
     }
     
     @IBAction func addGoal(_ sender: Any) {
+        guard let name = goalName.text,
+            let image = self.selectedImage,
+            let valueStr = self.goalValue.text,
+            let value = Int(valueStr)
+        else {
+            let alert = UIAlertController(title: "Dados incompletos", message: "Por favor, preencha todos os dados do seu objetivo", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        let date = self.goalLimitDate.date
         
+        FinancialManager.shared.createGoal(withName: name, image: image, date: date, andValue: value)
+        self.navigationController?.popViewController(animated: true)
     }
 }
 

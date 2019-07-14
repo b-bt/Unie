@@ -18,10 +18,15 @@ class OverviewController: UIViewController {
 
         self.goalsTable.goalsDelegate = self
         self.addGoalBtn.delegate = self
-        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.goalsTable.reloadData()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? GoalInfoViewController,
             let goal = sender as? Goal {

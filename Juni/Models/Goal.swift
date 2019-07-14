@@ -8,11 +8,23 @@
 
 import UIKit
 
+enum GoalStatus {
+    case waiting
+    case pendingApproval
+    case ongoing
+}
+
 class Goal: NSObject {
     let id = UUID()
     let name: String
+    var status: GoalStatus
+    var date: Date
+    var value: Int
     
-    init(withName name: String) {
+    init(withName name: String, image: UIImage, date: Date, status: GoalStatus = .pendingApproval, andValue value: Int) {
         self.name = name
+        self.status = status
+        self.date = date
+        self.value = value
     }
 }
