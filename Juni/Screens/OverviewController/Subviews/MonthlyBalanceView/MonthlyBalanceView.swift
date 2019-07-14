@@ -25,6 +25,9 @@ class MonthlyBalanceView: UIView {
     private func commonInit() {
         self.contentView = self.loadViewFromNib()
         self.addSubview(self.contentView)
+        
+        self.addDropShadow()
+        self.backgroundColor = UIColor.clear
     }
     
     @IBAction func goToDetailsTapped(_ sender: Any) {

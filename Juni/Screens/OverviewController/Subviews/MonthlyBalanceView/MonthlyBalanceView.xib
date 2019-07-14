@@ -85,13 +85,16 @@
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uc3-F9-FVd">
                     <rect key="frame" x="0.0" y="115" width="382" height="1"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="Qn5-wc-Jau"/>
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-U6-d3a">
-                    <rect key="frame" x="280" y="118" width="86" height="30"/>
+                    <rect key="frame" x="280" y="130" width="86" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="sJq-2W-mdi"/>
+                    </constraints>
                     <state key="normal" title="Ver detalhes">
                         <color key="titleColor" name="lightGreen"/>
                     </state>
@@ -109,7 +112,7 @@
                 <constraint firstItem="iLl-Qu-syc" firstAttribute="trailing" secondItem="iJz-RX-qMA" secondAttribute="trailing" constant="16" id="CQC-D5-jGN"/>
                 <constraint firstItem="icd-nb-6GS" firstAttribute="top" secondItem="LyP-RH-ud8" secondAttribute="bottom" id="ES5-2H-PgR"/>
                 <constraint firstItem="LyP-RH-ud8" firstAttribute="leading" secondItem="iLl-Qu-syc" secondAttribute="leading" constant="16" id="K4H-oa-hVJ"/>
-                <constraint firstAttribute="bottom" secondItem="YRZ-U6-d3a" secondAttribute="bottom" constant="12" id="L4n-tQ-p4O"/>
+                <constraint firstAttribute="bottom" secondItem="YRZ-U6-d3a" secondAttribute="bottom" constant="14" id="L4n-tQ-p4O"/>
                 <constraint firstItem="iLl-Qu-syc" firstAttribute="trailing" secondItem="D5M-tF-Wid" secondAttribute="trailing" constant="16" id="PMF-UO-xlY"/>
                 <constraint firstItem="7gT-Oh-juV" firstAttribute="top" secondItem="y4e-Sj-kbB" secondAttribute="bottom" constant="8" id="Q4C-do-7yp"/>
                 <constraint firstItem="2dD-EO-CJk" firstAttribute="top" secondItem="dll-nO-VXG" secondAttribute="top" constant="16" id="TqB-Rh-IEt"/>

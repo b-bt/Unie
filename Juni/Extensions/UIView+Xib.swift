@@ -6,7 +6,7 @@
 //  Copyright © 2019 Bruno Barbosa. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension UIView {
     func loadViewFromNib() -> UIView! {

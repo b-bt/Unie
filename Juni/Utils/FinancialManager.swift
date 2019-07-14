@@ -13,6 +13,9 @@ class FinancialManager {
     static private(set) var shared: FinancialManager = FinancialManager()
     
     private(set) var familyMembers: [FamilyMember] = [
-        FamilyMember(withName: "Predo", andImageNamed: "user")
+        FamilyMember(withName: "Gustavo", andImageNamed: "member1"),
+        FamilyMember(withName: "Júlia", andImageNamed: "member2"),
+        FamilyMember(withName: "Valentina", andImageNamed: "member3"),
+        FamilyMember(withName: "Roberto", andImageNamed: "member4")
     ]
 }

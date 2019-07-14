@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6734CD0E22DB1E4D003319C0 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD0D22DB1E4D003319C0 /* OverviewController.swift */; };
+		6734CD1122DB1F11003319C0 /* MonthlyBalanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6734CD1022DB1F11003319C0 /* MonthlyBalanceView.xib */; };
+		6734CD1422DB1F9F003319C0 /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD1322DB1F9F003319C0 /* UIView+Xib.swift */; };
+		6734CD1622DB201A003319C0 /* MonthlyBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD1522DB201A003319C0 /* MonthlyBalanceView.swift */; };
+		6734CD1D22DB2234003319C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6734CD1C22DB2234003319C0 /* Default-568h@2x.png */; };
+		6734CD2122DB26D0003319C0 /* MembersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD2022DB26D0003319C0 /* MembersCollectionView.swift */; };
+		6734CD2322DB2916003319C0 /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD2222DB2916003319C0 /* MemberCollectionViewCell.swift */; };
+		6734CD2622DB2A40003319C0 /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD2522DB2A40003319C0 /* FamilyMember.swift */; };
+		6734CD2922DB2C0D003319C0 /* FinancialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734CD2822DB2C0D003319C0 /* FinancialManager.swift */; };
+		674B5AE222DB4EE00079D7ED /* RoundedButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674B5AE122DB4EE00079D7ED /* RoundedButton.xib */; };
+		674B5AE422DB4FAE0079D7ED /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674B5AE322DB4FAE0079D7ED /* UIView+Shadow.swift */; };
+		674B5AE622DB4FE10079D7ED /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674B5AE522DB4FE10079D7ED /* RoundedButton.swift */; };
+		674B5AE822DB50310079D7ED /* RoundedButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674B5AE722DB50310079D7ED /* RoundedButtonDelegate.swift */; };
 		675B482E22DB12BB0034D005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B482D22DB12BB0034D005 /* AppDelegate.swift */; };
 		675B483322DB12BB0034D005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675B483122DB12BB0034D005 /* Main.storyboard */; };
-		675B483822DB12BC0034D005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675B483722DB12BC0034D005 /* Assets.xcassets */; };
 		675B483B22DB12BC0034D005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675B483922DB12BC0034D005 /* LaunchScreen.storyboard */; };
+		67D97EAD22DB5EBE001F9EF1 /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EAC22DB5EBE001F9EF1 /* GoalTableViewCell.swift */; };
+		67D97EAF22DB5ED3001F9EF1 /* GoalsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D97EAE22DB5ED3001F9EF1 /* GoalsTableView.swift */; };
+		67D97EB122DB6419001F9EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D97EB022DB6419001F9EF1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6734CD0D22DB1E4D003319C0 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		6734CD1022DB1F11003319C0 /* MonthlyBalanceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthlyBalanceView.xib; sourceTree = "<group>"; };
+		6734CD1322DB1F9F003319C0 /* UIView+Xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		6734CD1522DB201A003319C0 /* MonthlyBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBalanceView.swift; sourceTree = "<group>"; };
+		6734CD1C22DB2234003319C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6734CD2022DB26D0003319C0 /* MembersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersCollectionView.swift; sourceTree = "<group>"; };
+		6734CD2222DB2916003319C0 /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
+		6734CD2522DB2A40003319C0 /* FamilyMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
+		6734CD2822DB2C0D003319C0 /* FinancialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialManager.swift; sourceTree = "<group>"; };
+		674B5AE122DB4EE00079D7ED /* RoundedButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoundedButton.xib; sourceTree = "<group>"; };
+		674B5AE322DB4FAE0079D7ED /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		674B5AE522DB4FE10079D7ED /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		674B5AE722DB50310079D7ED /* RoundedButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonDelegate.swift; sourceTree = "<group>"; };
 		675B482A22DB12BA0034D005 /* Juni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675B482D22DB12BB0034D005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		675B483222DB12BB0034D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		675B483722DB12BC0034D005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675B483A22DB12BC0034D005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		675B483C22DB12BC0034D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D97EAC22DB5EBE001F9EF1 /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
+		67D97EAE22DB5ED3001F9EF1 /* GoalsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTableView.swift; sourceTree = "<group>"; };
+		67D97EB022DB6419001F9EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +63,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6734CD0C22DB1E2C003319C0 /* OverviewController */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD0D22DB1E4D003319C0 /* OverviewController.swift */,
+				6734CD0F22DB1E88003319C0 /* Subviews */,
+			);
+			path = OverviewController;
+			sourceTree = "<group>";
+		};
+		6734CD0F22DB1E88003319C0 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				67D97EAB22DB5E97001F9EF1 /* GoalsTableView */,
+				6734CD1F22DB2686003319C0 /* MembersCollectionView */,
+				6734CD1E22DB265B003319C0 /* MonthlyBalanceView */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		6734CD1222DB1F8E003319C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD1322DB1F9F003319C0 /* UIView+Xib.swift */,
+				674B5AE322DB4FAE0079D7ED /* UIView+Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6734CD1722DB20F3003319C0 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				674B5AE022DB4EB10079D7ED /* RoundedButton */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		6734CD1E22DB265B003319C0 /* MonthlyBalanceView */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD1022DB1F11003319C0 /* MonthlyBalanceView.xib */,
+				6734CD1522DB201A003319C0 /* MonthlyBalanceView.swift */,
+			);
+			path = MonthlyBalanceView;
+			sourceTree = "<group>";
+		};
+		6734CD1F22DB2686003319C0 /* MembersCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD2022DB26D0003319C0 /* MembersCollectionView.swift */,
+				6734CD2222DB2916003319C0 /* MemberCollectionViewCell.swift */,
+			);
+			path = MembersCollectionView;
+			sourceTree = "<group>";
+		};
+		6734CD2422DB29E4003319C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD2522DB2A40003319C0 /* FamilyMember.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6734CD2722DB2BE7003319C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6734CD2822DB2C0D003319C0 /* FinancialManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		674B5AE022DB4EB10079D7ED /* RoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				674B5AE122DB4EE00079D7ED /* RoundedButton.xib */,
+				674B5AE522DB4FE10079D7ED /* RoundedButton.swift */,
+				674B5AE722DB50310079D7ED /* RoundedButtonDelegate.swift */,
+			);
+			path = RoundedButton;
+			sourceTree = "<group>";
+		};
 		675B482122DB12BA0034D005 = {
 			isa = PBXGroup;
 			children = (
+				6734CD1C22DB2234003319C0 /* Default-568h@2x.png */,
 				675B482C22DB12BA0034D005 /* Juni */,
 				675B482B22DB12BA0034D005 /* Products */,
 			);
@@ -52,7 +163,11 @@
 		675B482C22DB12BA0034D005 /* Juni */ = {
 			isa = PBXGroup;
 			children = (
+				6734CD2722DB2BE7003319C0 /* Utils */,
 				679C5D1822DB1AA000CE9B23 /* App */,
+				6734CD2422DB29E4003319C0 /* Models */,
+				6734CD1222DB1F8E003319C0 /* Extensions */,
+				6734CD1722DB20F3003319C0 /* UIComponents */,
 				679C5D1A22DB1AD800CE9B23 /* Screens */,
 				679C5D1922DB1AB700CE9B23 /* Assets */,
 			);
@@ -71,8 +186,8 @@
 		679C5D1922DB1AB700CE9B23 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				675B483722DB12BC0034D005 /* Assets.xcassets */,
 				675B483922DB12BC0034D005 /* LaunchScreen.storyboard */,
+				67D97EB022DB6419001F9EF1 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -81,8 +196,18 @@
 			isa = PBXGroup;
 			children = (
 				675B483122DB12BB0034D005 /* Main.storyboard */,
+				6734CD0C22DB1E2C003319C0 /* OverviewController */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		67D97EAB22DB5E97001F9EF1 /* GoalsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				67D97EAC22DB5EBE001F9EF1 /* GoalTableViewCell.swift */,
+				67D97EAE22DB5ED3001F9EF1 /* GoalsTableView.swift */,
+			);
+			path = GoalsTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				675B483B22DB12BC0034D005 /* LaunchScreen.storyboard in Resources */,
-				675B483822DB12BC0034D005 /* Assets.xcassets in Resources */,
 				675B483322DB12BB0034D005 /* Main.storyboard in Resources */,
+				6734CD1D22DB2234003319C0 /* Default-568h@2x.png in Resources */,
+				674B5AE222DB4EE00079D7ED /* RoundedButton.xib in Resources */,
+				67D97EB122DB6419001F9EF1 /* Assets.xcassets in Resources */,
+				6734CD1122DB1F11003319C0 /* MonthlyBalanceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +284,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674B5AE822DB50310079D7ED /* RoundedButtonDelegate.swift in Sources */,
+				6734CD0E22DB1E4D003319C0 /* OverviewController.swift in Sources */,
+				674B5AE622DB4FE10079D7ED /* RoundedButton.swift in Sources */,
+				6734CD2322DB2916003319C0 /* MemberCollectionViewCell.swift in Sources */,
+				67D97EAD22DB5EBE001F9EF1 /* GoalTableViewCell.swift in Sources */,
 				675B482E22DB12BB0034D005 /* AppDelegate.swift in Sources */,
+				6734CD2122DB26D0003319C0 /* MembersCollectionView.swift in Sources */,
+				6734CD1422DB1F9F003319C0 /* UIView+Xib.swift in Sources */,
+				6734CD1622DB201A003319C0 /* MonthlyBalanceView.swift in Sources */,
+				6734CD2922DB2C0D003319C0 /* FinancialManager.swift in Sources */,
+				674B5AE422DB4FAE0079D7ED /* UIView+Shadow.swift in Sources */,
+				6734CD2622DB2A40003319C0 /* FamilyMember.swift in Sources */,
+				67D97EAF22DB5ED3001F9EF1 /* GoalsTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P8D84995S;
-				INFOPLIST_FILE = Juni/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Juni/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P8D84995S;
-				INFOPLIST_FILE = Juni/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Juni/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
